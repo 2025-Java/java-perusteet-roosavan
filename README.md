@@ -29,14 +29,7 @@ Metodi `public static String login(String[] tries)` — oikea salasana on `java1
 
 ## Testien ajaminen
 
-- Kaikki testit:
-```bash
-gradle test
-```
-- Yksittäinen testi:
-```bash
-gradle test --tests viikko1.NumberPropertiesTest
-```
+- Aja testit VSCodessa johon on asennettu "Extension Pack for Java" -plugin, kuten teimme ympäristön asennuksessa.
 
 > Vinkki VS Codeen:
 > 1) Asenna **Extension Pack for Java**, 2) varmista että JDK 21 on valittu,  
